@@ -38,7 +38,7 @@ func MigrateUsersTable() error {
 
 func ConnectDB() *pgx.Conn {
 	
-	dsn := "postgres://postgres:johntorremocha@localhost:5432/security_project"
+	dsn := os.Getenv("DSN")
 
 	var err error
 	dbConn, err := pgx.Connect(context.Background(), dsn)

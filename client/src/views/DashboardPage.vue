@@ -35,8 +35,8 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="w-full h-screen flex justify-center">
-    <div class="w-[90%] mt-12">
+  <div class="w-full h-screen flex justify-center pb-5 ">
+    <div class="w-[90%] mt-4">
       <h1 class="font-semibold my-5 text-4xl">IT412 MIDTERM PROJECT</h1>
       <div class="w-full relative overflow-x-auto">
         <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
