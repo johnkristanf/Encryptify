@@ -16,7 +16,7 @@ const users = ref<User[]>([]); // The users array will now have type User[]
 // Function to fetch data from the API
 const fetchUsers = async () => {
   try {
-    const response = await fetch('http://localhost:8080/api/users');
+    const response = await fetch('https://encryptify-xsb8.onrender.com/api/users');
     if (!response.ok) {
       throw new Error('Failed to fetch users');
     }

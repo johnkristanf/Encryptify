@@ -47,7 +47,7 @@ const handleSubmit = async () => {
     console.log("payload: ", payload)
 
 
-    const response = await fetch('http://localhost:8080/api/register', {
+    const response = await fetch('https://encryptify-xsb8.onrender.com/api/register', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

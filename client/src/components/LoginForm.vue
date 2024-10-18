@@ -21,7 +21,7 @@ const handleSubmit = async () => {
 
     try {
         // Send POST request using fetch API
-        const response = await fetch('http://localhost:8080/api/login', {
+        const response = await fetch('https://encryptify-xsb8.onrender.com/api/login', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
